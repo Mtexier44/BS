@@ -1,0 +1,4 @@
+CREATE TABLE PaymentHistory (
+    PaymentHistoryId INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    Product VARCHAR(80) NOT NULL
+);
