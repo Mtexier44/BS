@@ -1,0 +1,97 @@
+INSERT INTO Produit (nom_produit, categorie, prix, stock) 
+VALUES
+-- Burgers
+('Burger Classic', 'Burger', 4.99, 150),
+('Cheeseburger', 'Burger', 5.49, 120),
+('Double Cheeseburger', 'Burger', 6.99, 110),
+('Burger Bacon', 'Burger', 6.49, 100),
+('Chicken Burger', 'Burger', 5.99, 130),
+('Veggie Burger', 'Burger', 5.49, 140),
+('Fish Burger', 'Burger', 6.29, 90),
+('Spicy Chicken Burger', 'Burger', 6.99, 80),
+('Double Bacon Burger', 'Burger', 7.99, 70),
+('BBQ Burger', 'Burger', 6.79, 100),
+
+-- Wraps
+('Chicken Wrap', 'Wrap', 4.99, 120),
+('Veggie Wrap', 'Wrap', 4.49, 130),
+('Spicy Chicken Wrap', 'Wrap', 5.49, 110),
+('Fish Wrap', 'Wrap', 5.29, 90),
+('BBQ Chicken Wrap', 'Wrap', 5.99, 100),
+('Buffalo Chicken Wrap', 'Wrap', 6.29, 85),
+('Caesar Chicken Wrap', 'Wrap', 5.49, 95),
+('Club Wrap', 'Wrap', 6.49, 80),
+('Greek Wrap', 'Wrap', 6.29, 90),
+('Falafel Wrap', 'Wrap', 5.29, 110),
+
+-- Salades
+('Salade Caesar', 'Salade', 6.99, 70),
+('Salade Poulet Grillé', 'Salade', 7.49, 60),
+('Salade Végétarienne', 'Salade', 6.49, 80),
+('Salade Thon', 'Salade', 7.29, 50),
+('Salade de Quinoa', 'Salade', 7.99, 65),
+('Salade Grecque', 'Salade', 6.99, 90),
+('Salade César au Poulet', 'Salade', 7.49, 55),
+('Salade Cobb', 'Salade', 7.99, 40),
+('Salade Fruits de Mer', 'Salade', 8.49, 45),
+('Salade de Légumes Grillés', 'Salade', 6.79, 70),
+
+-- Accompagnements
+('Frites Classiques', 'Accompagnement', 2.49, 200),
+('Frites Cheddar', 'Accompagnement', 3.49, 180),
+('Frites Bacon', 'Accompagnement', 3.99, 160),
+('Onion Rings', 'Accompagnement', 2.99, 170),
+('Chicken Nuggets (6 pièces)', 'Accompagnement', 4.99, 150),
+('Chicken Nuggets (10 pièces)', 'Accompagnement', 6.99, 130),
+('Mozzarella Sticks', 'Accompagnement', 3.99, 140),
+('Jalapeño Poppers', 'Accompagnement', 4.49, 120),
+('Potato Wedges', 'Accompagnement', 3.49, 160),
+('Corn Dogs', 'Accompagnement', 3.99, 140),
+
+-- Boissons
+('Coca-Cola', 'Boisson', 1.99, 300),
+('Coca-Cola Light', 'Boisson', 1.99, 280),
+('Pepsi', 'Boisson', 1.99, 250),
+('Sprite', 'Boisson', 1.99, 260),
+('Fanta', 'Boisson', 1.99, 240),
+('Ice Tea', 'Boisson', 2.49, 220),
+('Limonade Maison', 'Boisson', 2.99, 200),
+('Eau Minérale', 'Boisson', 1.49, 300),
+('Jus d Orange', 'Boisson', 2.99, 150),
+('Jus de Pomme', 'Boisson', 2.99, 130),
+
+-- Milkshakes
+('Milkshake Vanille', 'Milkshake', 3.99, 90),
+('Milkshake Chocolat', 'Milkshake', 3.99, 80),
+('Milkshake Fraise', 'Milkshake', 3.99, 85),
+('Milkshake Caramel', 'Milkshake', 4.49, 70),
+('Milkshake Oreo', 'Milkshake', 4.99, 65),
+('Milkshake Beurre de Cacahuète', 'Milkshake', 4.99, 60),
+('Milkshake Banane', 'Milkshake', 4.29, 75),
+('Milkshake Menthe Chocolat', 'Milkshake', 4.49, 55),
+('Milkshake Nutella', 'Milkshake', 5.49, 50),
+('Milkshake Mangue', 'Milkshake', 4.29, 60),
+
+-- Desserts
+('Brownie', 'Dessert', 2.99, 100),
+('Cookie Chocolat', 'Dessert', 1.99, 120),
+('Tarte aux Pommes', 'Dessert', 3.49, 80),
+('Cheesecake', 'Dessert', 3.99, 90),
+('Donut Sucré', 'Dessert', 1.49, 130),
+('Sundae Chocolat', 'Dessert', 2.49, 110),
+('Sundae Caramel', 'Dessert', 2.49, 100),
+('Muffin Myrtille', 'Dessert', 2.99, 100),
+('Muffin Chocolat', 'Dessert', 2.99, 110),
+('Crème Glacée Vanille', 'Dessert', 1.99, 150),
+
+-- Plats Enfants
+('Menu Enfant Burger', 'Plat Enfant', 4.99, 120),
+('Menu Enfant Nuggets', 'Plat Enfant', 4.99, 130),
+('Menu Enfant Wrap', 'Plat Enfant', 4.99, 110),
+('Menu Enfant Hot Dog', 'Plat Enfant', 4.49, 100),
+('Menu Enfant Pizza', 'Plat Enfant', 5.49, 90),
+('Mini Frites', 'Plat Enfant', 1.49, 140),
+('Mini Boisson', 'Plat Enfant', 1.29, 130),
+('Mini Milkshake', 'Plat Enfant', 2.49, 80),
+('Yaourt à boire', 'Plat Enfant', 1.49, 120),
+('Fruit à croquer', 'Plat Enfant', 0.99, 150);
