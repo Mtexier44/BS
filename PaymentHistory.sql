@@ -1,4 +1,4 @@
 CREATE TABLE PaymentHistory (
-    PaymentHistoryId INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    FOREIGN KEY (PaymentHistoryId) REFERENCES User(PaymentHistoryId),
     Product VARCHAR(80) NOT NULL
 );
